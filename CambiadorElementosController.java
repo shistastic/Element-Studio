@@ -24,7 +24,7 @@ import javafx.stage.Stage;
 /**
  * FXML Controller class
  *
- * @author davidd
+ * @author adamj
  */
 public class CambiadorElementosController implements Initializable {
 

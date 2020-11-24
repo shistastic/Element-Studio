@@ -19,7 +19,7 @@ import javafx.scene.control.Button;
 
 /**
  *
- * @author juaniamaro
+ * @author adamj
  */
 public class ElementStudio extends Application{
 

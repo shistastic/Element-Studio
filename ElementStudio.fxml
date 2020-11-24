@@ -7,14 +7,14 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elementstudio.ElementStudioController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elementstudio.ElementStudioController">
    <children>
-      <ImageView fitHeight="407.0" fitWidth="634.0" layoutX="-6.0" layoutY="-2.0">
+      <ImageView fx:id="fondo" fitHeight="407.0" fitWidth="634.0" layoutX="-6.0" layoutY="-2.0">
          <image>
             <Image url="@2604b05be13c960f4323a90163420575.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="250.0" layoutY="208.0" mnemonicParsing="false" onAction="#comenzar" prefHeight="52.0" prefWidth="122.0" style="-fx-background-radius: 100; -fx-background-color: #d1ba79; -fx-border-color: black; -fx-border-radius: 100;" text="Comenzar">
+      <Button layoutX="242.0" layoutY="208.0" mnemonicParsing="false" onAction="#comenzar" prefHeight="52.0" prefWidth="138.0" style="-fx-background-radius: 100; -fx-background-color: #d1ba79; -fx-border-color: black; -fx-border-radius: 100;" text="Cambiar Titulo">
          <font>
             <Font name="Lucida Sans Demibold Italic" size="14.0" />
          </font>

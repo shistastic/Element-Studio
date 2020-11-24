@@ -15,12 +15,14 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 /**
  * FXML Controller class
  *
- * @author juaniamaro
+ * @author adamj
  */
 public class ElementStudioController implements Initializable {
 
@@ -29,7 +31,8 @@ public class ElementStudioController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+       
+      
     }    
     
     @FXML
